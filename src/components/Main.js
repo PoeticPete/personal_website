@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import pic01 from '../images/pic01.jpg'
-import pic02 from '../images/pic02.jpg'
-import pic03 from '../images/pic03.jpg'
+import pic01 from '../images/skills.jpeg'
+import pic02 from '../images/viasat_banner.png'
+import pic03 from '../images/umass.jpg'
 
 class Main extends React.Component {
   render() {
@@ -88,11 +88,12 @@ class Main extends React.Component {
             That was back in 2016. 
           </p>
           <p>
-            After getting an internship at Viasat, I decided to try out software engineering - 
-            it was awesome.
+            That same year, I attended HackUMass. It was pretty crazy. The energy was incredible,
+            and my roommates and I actually won something! To this day, I still love hackathons.
           </p>
           <p>
-            In fact, it was so awesome I decided to become a software engineer instead!
+            After getting offered an internship at Viasat, I decided to try it out - 
+            it was awesome. In fact, it was so awesome I decided to become a software engineer instead!
           </p>
           <p>
             Even though I put a career in medicine on hold (sorry mom), one day I hope to apply the skills I learn as a software engineer to healthcare. 
