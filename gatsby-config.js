@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: "Peter Tao",
     author: "Peter Tao",
-    description: "Hi, I'm Peter. I'm a software engineer. I love building apps, websites, and gadgets. Let me know how I can help you build something too!"
+    description: "some description that does not matter..."
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -19,6 +19,13 @@ module.exports = {
       },
     },
     'gatsby-plugin-sass',
-    'gatsby-plugin-offline'
+    'gatsby-plugin-offline',
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-146927735-2",
+      },
+    },
+    'gatsby-plugin-react-helmet'
   ],
 }

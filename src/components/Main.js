@@ -4,6 +4,7 @@ import pic01 from '../images/skills.jpeg'
 import pic02 from '../images/viasat_banner.png'
 import pic03 from '../images/umass.jpg'
 
+
 class Main extends React.Component {
   render() {
     let close = (

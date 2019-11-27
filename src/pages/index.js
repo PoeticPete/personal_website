@@ -4,6 +4,7 @@ import Layout from '../components/layout'
 import Header from '../components/Header'
 import Main from '../components/Main'
 import Footer from '../components/Footer'
+import { Helmet } from "react-helmet"
 
 class IndexPage extends React.Component {
   constructor(props) {
@@ -92,6 +93,12 @@ class IndexPage extends React.Component {
   render() {
     return (
       <Layout location={this.props.location}>
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>Peter Tao</title>
+          <meta name="description" content="Hi, I'm Peter. I'm a software engineer. I love building apps, websites, and gadgets. Let me know how I can help you build something too!" />
+          <link rel="canonical" href="http://mysite.com/example" />
+        </Helmet>
         <div className={`body ${this.state.loading} ${this.state.isArticleVisible ? 'is-article-visible' : ''}`}>
           <div id="wrapper">
             <Header onOpenArticle={this.handleOpenArticle} timeout={this.state.timeout} />
