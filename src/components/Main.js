@@ -97,7 +97,7 @@ class Main extends React.Component {
             it was awesome. In fact, it was so awesome I decided to become a software engineer instead!
           </p>
           <p>
-            Even though I put a career in medicine on hold (sorry mom), one day I hope to apply the skills I learn as a software engineer to healthcare. 
+            Even though I put a career in medicine on hold, one day I hope to apply the skills I learn as a software engineer to healthcare. 
           </p>
           <p>
             But for now, I've got some new Javascript frameworks to learn. Gatsby is pretty cool!
