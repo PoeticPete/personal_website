@@ -2,8 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 const Footer = (props) => (
-    <footer id="footer" style={props.timeout ? {display: 'none'} : {}}>
-        <p className="copyright">&copy; Peter Tao 2019 </p>
+    <footer id="footer" style={props.timeout ? { display: 'none' } : {}}>
+        <p className="copyright">&copy; Peter Tao 2024 </p>
     </footer>
 )
 

@@ -24,9 +24,8 @@ class Main extends React.Component {
       >
         <article
           id="intro"
-          className={`${this.props.article === 'intro' ? 'active' : ''} ${
-            this.props.articleTimeout ? 'timeout' : ''
-          }`}
+          className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''
+            }`}
           style={{ display: 'none' }}
         >
           <h2 className="major">Intro</h2>
@@ -37,7 +36,7 @@ class Main extends React.Component {
             Hey there - thanks for clicking around!
           </p>
           <p>
-            I'm what people call a software engineer. Basically, I drink coffee, eat snacks, and write code. 
+            I'm what people call a software engineer. Basically, I drink coffee, eat snacks, and write code.
           </p>
           <p>
             I'm familiar with Swift, Python, Java, Go, Javascript, HTML, and CSS.
@@ -57,9 +56,8 @@ class Main extends React.Component {
 
         <article
           id="work"
-          className={`${this.props.article === 'work' ? 'active' : ''} ${
-            this.props.articleTimeout ? 'timeout' : ''
-          }`}
+          className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''
+            }`}
           style={{ display: 'none' }}
         >
           <h2 className="major">Work</h2>
@@ -67,16 +65,15 @@ class Main extends React.Component {
             <img src={pic02} alt="" />
           </span>
           <p>
-            I'm currently a Software Engineer at Viasat. I started as an intern in 2017.
+            I'm currently a Software Engineer at Instagram. I started my career at Viasat as an intern in 2017.
           </p>
           {close}
         </article>
 
         <article
           id="about"
-          className={`${this.props.article === 'about' ? 'active' : ''} ${
-            this.props.articleTimeout ? 'timeout' : ''
-          }`}
+          className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''
+            }`}
           style={{ display: 'none' }}
         >
           <h2 className="major">About</h2>
@@ -84,20 +81,20 @@ class Main extends React.Component {
             <img src={pic03} alt="" />
           </span>
           <p>
-            I graduated with a degree in Biochemistry and Molecular Biology from UMass Amherst. 
+            I graduated with a degree in Biochemistry and Molecular Biology from UMass Amherst.
             I had always wanted to be an eye doctor until I developed my first app during sophomore year of college.
-            That was back in 2016. 
+            That was back in 2016.
           </p>
           <p>
             That same year, I attended HackUMass. It was pretty crazy. The energy was incredible,
             and my roommates and I actually won something! To this day, I still love hackathons.
           </p>
           <p>
-            After getting offered an internship at Viasat, I decided to try it out - 
+            After getting offered an internship at Viasat, I decided to try it out -
             it was awesome. In fact, it was so awesome I decided to become a software engineer instead!
           </p>
           <p>
-            Even though I put a career in medicine on hold, one day I hope to apply the skills I learn as a software engineer to healthcare. 
+            Even though I put a career in medicine on hold, one day I hope to apply the skills I learn as a software engineer to healthcare.
           </p>
           <p>
             But for now, I've got some new Javascript frameworks to learn. Gatsby is pretty cool!
@@ -107,9 +104,8 @@ class Main extends React.Component {
 
         <article
           id="contact"
-          className={`${this.props.article === 'contact' ? 'active' : ''} ${
-            this.props.articleTimeout ? 'timeout' : ''
-          }`}
+          className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''
+            }`}
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
